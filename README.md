@@ -14,12 +14,6 @@ This is my first Streamlit web app.
 - Student data table
 - Dashboard metrics
 
-## Student Information
-
-Name: Yos Sak
-Student ID: 
-Class: DSE M2
-
 
 
 
@@ -154,5 +148,5 @@ streamlit run app.py
 ## Student Information
 
 Name: Yos Sak
-Student ID:
+Student ID: 11
 Class: DSE M2
