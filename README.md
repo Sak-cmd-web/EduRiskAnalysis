@@ -14,17 +14,6 @@ This is my first Streamlit web app.
 - Student data table
 - Dashboard metrics
 
-## Tools Used
-
-- Python
-- Streamlit
-- Pandas
-- VS Code
-
-## How to Run
-
-streamlit run app.py
-
 ## Student Information
 
 Name: Yos Sak
@@ -69,6 +58,8 @@ This lab continues from Lab 01 and adds filters, charts, risk level calculation,
 
 
 
+
+
 # Lab 03: Data Loading, Layout, and Frontend Prototype
 
 ## Project Theme
@@ -102,17 +93,63 @@ The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashb
 - Data inspection section
 - Ethics reminder
 
-## Tools Used
 
+
+
+
+# Lab 04: Forms, Validation, and Session State
+
+## Project Theme
+
+EduRisk Analytics
+
+## Description
+
+This Streamlit app is a student academic monitoring prototype.
+
+This lab continues from Lab 03 and improves the Risk Checker page using Streamlit forms, input validation, and session state.
+
+The app loads student data from students.csv, displays dashboard information, and allows users to check individual student risk levels with a reliable form-based workflow.
+
+## Features
+```text
+- Sidebar navigation
+- Home page
+- Dashboard page
+- Student Data page
+- Risk Checker page
+- About page
+- Student dataset stored in students.csv
+- CSV data loading with Pandas
+- Missing CSV file error handling
+- Risk level calculation
+- Streamlit form
+- Form submit button
+- Empty student name validation
+- Supportive risk feedback messages
+- Session state risk-check history
+- Recent Risk Checks table
+- Clear History button
+- Ethics reminders
+```
+## Tools Used
+```text
 - Python
 - Streamlit
 - Pandas
 - VS Code
-
-
+```
+## Required Files
+```text
+- app.py
+- students.csv
+- requirements.txt
+- README.md
+```
 ## How to Run
-
+```text
 streamlit run app.py
+```
 
 ## Student Information
 
