@@ -111,7 +111,7 @@ elif selected_page == "Dashboard":
     )
 
     # Step 18: Update the Dashboard Page
-    filtered_df = pd.read_csv("students.csv")
+    filtered_df = student_df.copy()
 
     if selected_course != "All":
         filtered_df = filtered_df[filtered_df["Course"] == selected_course]
