@@ -144,7 +144,7 @@ The app loads student data from students.csv, displays dashboard information, an
 
 
 
- Lab 05: Visualization and Interactivity
+# Lab 05: Visualization and Interactivity
 
 ## Project Theme
 
